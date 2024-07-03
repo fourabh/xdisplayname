@@ -45,7 +45,7 @@ function App() {
           required
         />
         <br />
-        <button>Submit</button>
+        <button type="submit">Submit</button>
         {fullName && <p>Full Name: {fullName}</p>}
       </form>
     </div>
